@@ -14,8 +14,8 @@ class Solution {
                     alphabet[i] -=1;
                 }
             }
-            for(int i = 25; i >= 0 ; i --){
-                if (alphabet[i] >0) {
+            for(int i = 25; i >= 0 ; i--){
+                if (alphabet[i] > 0) {
                 sb.append((char) (i + 'a'));
                     alphabet[i] -=1;
                 }
